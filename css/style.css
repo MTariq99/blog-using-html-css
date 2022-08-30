@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navigation {
+    /* height: 75px; */
+    margin-top: 23px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: var(--font1);
+}
+
+.nav-left {
+    font-size: 20px;
+    display: flex;
+}
+
+.nav-left  span {
+    font-size: 35px;
+
+}
+.nav-left a{
+    text-decoration: none;
+    color: black;
+
+}
+
+.nav-left ul {
+    display: flex;
+    align-items: center;
+    margin: 0 77px;
+    font-size: 20px;
+
+}
+
+.nav-left ul li {
+    list-style-type: none;
+    margin: 0 12px;
+    font-family: var(--font2);
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.nav-left ul li:hover {
+    color: brown;
+    font-weight: bolder;
+}
+
+.nav-left ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+.content-left {
+    font-family: var(--font1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 50px;
+}
+
+.content-right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content-right img {
+    width: 23vw;
+    height: 253px;
+    border-radius: 13px;
+}
+
+/* .nav-right {} */
+
+.content {
+    height: 100%;
+    display: flex;
+    margin-top: 30px;
+}
+
+.home-articles {
+    margin-top: 10px;
+    padding-top: 30px;
+    background-color: rgb(242, 242, 242)
+}
+.year-box{
+    float: right;
+    width: 5vw;
+    height: 15vh;
+    background-color: rgba(209, 198, 198,0.10);
+    padding: 5px 50px;
+    font-family: var(--font1);
+}
+
+.home-article {
+    display: flex;
+    margin: 5px;
+
+}
+
+.home-article img {
+    width: 200px;
+    border: 0px solid black;
+
+}
+
+.home-article-content {
+    align-self: center;
+    padding: 0 25px;
+    font-family: var(--font2);
+}
+
+.home-article-content a {
+    text-decoration: none;
+    color: black;
+}
+
+
+.footer {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: green;
+}

@@ -1,0 +1,29 @@
+.contact-content{
+    height: 395px;
+    height: 60vh;
+    display: block;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 9px;
+    position: relative;
+    font-family: var(--font1);
+    overflow: hidden;
+}
+.contact-content::after{
+    content: "";
+    top: 0;
+    background-image: url("../images/home-article-4.jpg");
+    background-size: cover;
+    position: absolute;
+    width: 100%;
+    height: inherit;
+    opacity: 0.3;
+    border-radius: 13px;
+    z-index: -1;
+}
+.heading2 h2{
+    margin: 20px 50px;
+}
+.contact-form{
+    margin: 20px 50px;
+}
